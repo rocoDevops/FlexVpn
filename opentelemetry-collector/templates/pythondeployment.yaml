@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python
+spec:
+  nodeSelector:
+  containers:
+    - name: python
+      image: cdebnath/py:v2
+
+      # command: [ "/bin/bash", "-c", "--" ]
+      # args: [ "while true; do sleep 30; done;" ]
