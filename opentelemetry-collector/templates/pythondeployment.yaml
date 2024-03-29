@@ -6,7 +6,8 @@ spec:
   nodeSelector:
   containers:
     - name: python
-      image: cdebnath/py:v2
+      image: cdebnath/cisco:v1
 
       # command: [ "/bin/bash", "-c", "--" ]
       # args: [ "while true; do sleep 30; done;" ]
+      command: ["tail", "-f", "/dev/null"]

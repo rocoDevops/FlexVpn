@@ -207,7 +207,7 @@ gossipPortName: gossip
 service:
   enabled: true
   type: LoadBalancer
-  externalIPs: [10.14.142.26]
+  externalIPs: [192.168.64.7]
   loadBalancerIP: ""
   loadBalancerClass: ""
   loadBalancerSourceRanges: []
